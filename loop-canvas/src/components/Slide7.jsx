@@ -5,7 +5,7 @@ import v1 from '../assets/E1.webm';
 import v2 from '../assets/E2.webm';
 
 import img1 from '../assets/E3.jpg';
-import img2 from '../assets/E4.JPG';
+import img2 from '../assets/E4.jpg';
 import img3 from '../assets/E5.jpg';
 
 const VIDEOS = [
