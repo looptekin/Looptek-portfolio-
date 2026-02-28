@@ -101,15 +101,9 @@ const Slide1 = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={sectionInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6 }}
-        className="mb-10"
+        className="mb-0"
       >
 
-
-        <h2 className="text-3xl md:text-4xl font-semibold tracking-wide bg-gradient-to-r from-[#00d2ff] to-[#6c5ce7] bg-clip-text text-transparent">
-          Real Estate
-        </h2>
-
-        <div className="mt-4 w-16 h-[2px] bg-gradient-to-r from-[#00d2ff] to-[#6c5ce7]" />
       </motion.div>
 
       {/* 2-Column Grid */}
