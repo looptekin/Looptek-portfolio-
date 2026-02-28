@@ -17,19 +17,19 @@ const RESULTS = [
   {
     id: 1,
     src: img1,
-    title: 'Inquiries Generated',
+    title: 'Elevated product presentation with premium visuals',
     desc: 'Through targeted ad campaigns that reached the right audience at the right moment.',
   },
   {
     id: 2,
     src: img2,
-    title: 'Improved Leads Quality',
+    title: 'Increased customer engagement & conversion rates',
     desc: 'Higher intent traffic converting into real business opportunities and sales.',
   },
   {
     id: 3,
     src: img3,
-    title: 'Brand Awareness',
+    title: 'Improved ad performance with high-quality content',
     desc: 'Consistent visibility across platforms building trust and recognition over time.',
   },
 ];
@@ -150,7 +150,7 @@ const Slide8 = () => {
           className="mb-10"
         >
           <h2 className="text-3xl md:text-4xl font-semibold tracking-wide bg-gradient-to-r from-[#00d2ff] to-[#6c5ce7] bg-clip-text text-transparent">
-            Real Estate
+            Product Shoots
           </h2>
 
           <div className="mt-4 w-16 h-[2px] bg-gradient-to-r from-[#00d2ff] to-[#6c5ce7]" />

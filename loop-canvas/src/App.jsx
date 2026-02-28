@@ -76,9 +76,7 @@ function App() {
           <Slide6/>
         </SectionWrapper>
 
-            <SectionWrapper>
-          <Slide7/>
-        </SectionWrapper>
+            
 
 
             <SectionWrapper>

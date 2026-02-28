@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import v1 from '../assets/E1.webm';
 import v2 from '../assets/D2.webm';
 
-import img1 from '../assets/D3.jpg';
+import img1 from '../assets/E3.jpg';
 import img2 from '../assets/D4.jpg';
 import img3 from '../assets/D5.jpg';
 
@@ -17,19 +17,19 @@ const RESULTS = [
   {
     id: 1,
     src: img1,
-    title: 'Inquiries Generated',
+    title: 'Built strong personal brand presence',
     desc: 'Through targeted ad campaigns that reached the right audience at the right moment.',
   },
   {
     id: 2,
     src: img2,
-    title: 'Improved Leads Quality',
+    title: 'Increased brand engagement & follower growth',
     desc: 'Higher intent traffic converting into real business opportunities and sales.',
   },
   {
     id: 3,
     src: img3,
-    title: 'Brand Awareness',
+    title: 'Increased social proof & credibility',
     desc: 'Consistent visibility across platforms building trust and recognition over time.',
   },
 ];
@@ -166,7 +166,7 @@ const Slide6 = () => {
          
 
           <h2 className="text-3xl md:text-4xl font-semibold tracking-wide bg-gradient-to-r from-[#00d2ff] to-[#6c5ce7] bg-clip-text text-transparent">
-            Real Estate
+            Personal Brands
           </h2>
 
           <div className="mt-4 w-16 h-[2px] bg-gradient-to-r from-[#00d2ff] to-[#6c5ce7]" />

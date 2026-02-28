@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const SERVICES = [
   {
     image:
-      "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80",
+      "https://www.ed2go.com/common/images/2/23553/2305prod-GES2143-Certified-Social-Media-Manager-935x572.webp",
     title: "Social Media Management",
     description:
       "Full-funnel content strategy, scheduling & community management across Instagram, Facebook and LinkedIn — keeping your brand active and growing 24/7.",
@@ -13,18 +13,18 @@ const SERVICES = [
   },
   {
     image:
-      "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80",
-    title: "Performance Advertising",
+      "https://www.kisworks.com/blog/wp-content/uploads/2024/06/Top-10-Reasons-to-Choose-an-Indian-Website-Development-Company-in-2024-.jpg",
+    title: "Website Design & Development",
     description:
-      "Data-driven paid campaigns on Meta & Google designed to maximise ROAS, generate quality leads and scale your revenue with precision targeting.",
+      "We build responsive, SEO-optimized websites that not only look stunning but also convert visitors into customers — tailored to your brand and business goals.",
     number: "02",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-    title: "Brand Identity & Design",
+      "https://3.imimg.com/data3/VQ/QB/MY-9569787/collateral-designing-and-printing-services-1000x1000.jpg",
+    title: "Designing & Print Collaterals",
     description:
-      "From logo systems to full visual identities — we craft cohesive brand languages that make your business instantly recognisable and memorable.",
+      "We create eye-catching designs for your brand, including logos, brochures, flyers, business cards and more - along with high quality printing to bring your brand to life.",
     number: "03",
   },
 ];
@@ -108,27 +108,10 @@ const Slide5 = () => {
             display: "flex",
             alignItems: "center",
             gap: 10,
-            marginBottom: 16,
+            marginBottom: 10,
           }}
         >
-          <div
-            style={{
-              height: 1,
-              width: 30,
-              background: "linear-gradient(90deg, #00d2ff, transparent)",
-            }}
-          />
-          <span
-            style={{
-              fontSize: 10,
-              letterSpacing: "0.28em",
-              textTransform: "uppercase",
-              color: "#00d2ff",
-              opacity: 0.85,
-            }}
-          >
-            What We Offer
-          </span>
+          
         </motion.div>
 
         {/* Title */}
@@ -190,8 +173,7 @@ const Slide5 = () => {
             maxWidth: 520,
           }}
         >
-          Beyond campaigns — a full suite of digital growth solutions tailored
-          for your brand.
+          LoopteK a One-House Solution for all your marketing needs.
         </motion.p>
 
         {/* Services Grid */}

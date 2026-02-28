@@ -123,7 +123,7 @@ const Slide1 = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-[#00d2ff] text-[15px] tracking-[0.2em] uppercase mb-6 font-light"
           >
-            We've worked with
+            Who We Work With
           </motion.p>
 
           <div className="flex flex-col gap-0">
@@ -157,7 +157,7 @@ const Slide1 = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-[#00d2ff] text-[15px] tracking-[0.2em] uppercase mb-6 font-light"
           >
-            Our Services
+            What We Offer
           </motion.p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">

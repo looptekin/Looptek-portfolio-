@@ -17,19 +17,19 @@ const RESULTS = [
   {
     id: 1,
     src: img1,
-    title: 'Inquiries Generated',
+    title: 'Increased walk-in & consultation inquiries',
     desc: 'Through targeted ad campaigns that reached the right audience at the right moment.',
   },
   {
     id: 2,
     src: img2,
-    title: 'Improved Leads Quality',
+    title: 'Improved online visibility & engagement',
     desc: 'Higher intent traffic converting into real business opportunities and sales.',
   },
   {
     id: 3,
     src: img3,
-    title: 'Brand Awareness',
+    title: 'Boosted google reviews & ratings',
     desc: 'Consistent visibility across platforms building trust and recognition over time.',
   },
 ];
