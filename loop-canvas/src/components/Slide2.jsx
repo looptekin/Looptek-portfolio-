@@ -17,7 +17,7 @@ const RESULTS = [
   {
     id: 1,
     src: img1,
-    title: 'Increased footfall & table reservations',
+    title: 'Increased footfall',
     desc: 'Through targeted ad campaigns that reached the right audience at the right moment.',
   },
   {

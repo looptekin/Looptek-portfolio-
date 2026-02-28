@@ -40,7 +40,7 @@ const Slide5 = () => {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        // padding: "80px 40px",
+        padding: "80px 20px",
         position: "relative",
         overflow: "hidden",
         color: "white",

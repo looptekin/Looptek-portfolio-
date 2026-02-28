@@ -17,7 +17,7 @@ const RESULTS = [
   {
     id: 1,
     src: img1,
-    title: 'Built strong personal brand presence',
+    title: 'Built strong brand presence',
     desc: 'Through targeted ad campaigns that reached the right audience at the right moment.',
   },
   {
@@ -126,7 +126,7 @@ const Slide6 = () => {
   return (
     <div
       ref={sectionRef}
-      className="relative w-full min-h-screen overflow-hidden  px-4 md:px-12 lg:px-20"
+      className="relative w-full  overflow-hidden  px-4 md:px-12 lg:px-20"
       style={{ backgroundColor: '#080818' }}
     >
       <div className="absolute inset-0 bg-gradient-to-b from-[#080818] via-[#0A0A22] to-[#080818]" />

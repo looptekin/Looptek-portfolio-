@@ -13,7 +13,7 @@ const industries = [
 const services = [
   {
     title: 'Business Development',
-    desc: 'Strategic planning, competitor insights and scalable growth roadmaps aligned with your busiess goals.',
+    desc: 'Strategic planning, competitor insights and scalable growth roadmaps aligned with your business goals.',
   },
   {
     title: 'Paid Ad Campaigns',
@@ -33,21 +33,26 @@ const services = [
   },
   {
     title: 'Analytics & Reporting',
-    desc: 'Real-time dashboards and monthly deep-dives so you always know what\'s working and what\'s next.',
+    desc: "Real-time dashboards and monthly deep-dives so you always know what's working and what's next.",
   },
 ];
 
 const useInView = (threshold = 0.15) => {
   const ref = useRef(null);
   const [inView, setInView] = useState(false);
+
   useEffect(() => {
     const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) setInView(true); },
+      ([entry]) => {
+        if (entry.isIntersecting) setInView(true);
+      },
       { threshold }
     );
+
     if (ref.current) observer.observe(ref.current);
     return () => observer.disconnect();
   }, []);
+
   return [ref, inView];
 };
 
@@ -57,20 +62,21 @@ const Slide1 = () => {
   return (
     <div
       ref={sectionRef}
-      className="relative w-full min-h-screen overflow-hidden py-16 px-4 md:px-12 lg:px-20"
+      className="relative w-full overflow-hidden pt-16 pb-10 px-4 md:px-12 lg:px-20"
       style={{ backgroundColor: '#080818' }}
     >
-      {/* Background gradient (Hero matched) */}
+      {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#080818] via-[#0A0A22] to-[#080818]" />
 
-      {/* Hero-style ambient glows */}
+      {/* Ambient glows */}
       <div className="absolute inset-0 z-[1] pointer-events-none">
         <div
           className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full"
           style={{
             width: 800,
             height: 400,
-            background: 'radial-gradient(ellipse, rgba(0,210,255,0.08) 0%, transparent 70%)',
+            background:
+              'radial-gradient(ellipse, rgba(0,210,255,0.08) 0%, transparent 70%)',
             filter: 'blur(50px)',
           }}
         />
@@ -80,7 +86,8 @@ const Slide1 = () => {
             left: 'calc(50% - 250px)',
             width: 300,
             height: 300,
-            background: 'radial-gradient(circle, rgba(0,210,255,0.06) 0%, transparent 70%)',
+            background:
+              'radial-gradient(circle, rgba(0,210,255,0.06) 0%, transparent 70%)',
             filter: 'blur(40px)',
           }}
         />
@@ -90,23 +97,14 @@ const Slide1 = () => {
             left: 'calc(50% + 100px)',
             width: 300,
             height: 300,
-            background: 'radial-gradient(circle, rgba(108,92,231,0.04) 0%, transparent 70%)',
+            background:
+              'radial-gradient(circle, rgba(108,92,231,0.04) 0%, transparent 70%)',
             filter: 'blur(40px)',
           }}
         />
       </div>
 
-      {/* TITLE — perfectly aligned with left grid */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={sectionInView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.6 }}
-        className="mb-0"
-      >
-
-      </motion.div>
-
-      {/* 2-Column Grid */}
+      {/* Grid */}
       <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-start">
 
         {/* LEFT — Industries */}
@@ -181,7 +179,11 @@ const Slide1 = () => {
 
       <style>{`
         .bg-radial-glow {
-          background: radial-gradient(ellipse at 50% 0%, rgba(0,210,255,0.12) 0%, transparent 70%);
+          background: radial-gradient(
+            ellipse at 50% 0%,
+            rgba(0, 210, 255, 0.12) 0%,
+            transparent 70%
+          );
         }
       `}</style>
     </div>

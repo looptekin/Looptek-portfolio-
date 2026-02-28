@@ -23,13 +23,13 @@ const RESULTS = [
   {
     id: 2,
     src: img2,
-    title: 'Increased customer engagement & conversion rates',
+    title: 'Increased customer engagement',
     desc: 'Higher intent traffic converting into real business opportunities and sales.',
   },
   {
     id: 3,
     src: img3,
-    title: 'Improved ad performance with high-quality content',
+    title: 'High-quality content',
     desc: 'Consistent visibility across platforms building trust and recognition over time.',
   },
 ];
@@ -123,7 +123,7 @@ const Slide8 = () => {
   return (
     <div
       ref={sectionRef}
-      className="relative w-full min-h-screen overflow-hidden py-16 px-4 md:px-12 lg:px-20"
+      className="relative w-full  overflow-hidden py-16 px-4 md:px-12 lg:px-20"
       style={{ backgroundColor: '#080818' }}
     >
       <div className="absolute inset-0 bg-gradient-to-b from-[#080818] via-[#0A0A22] to-[#080818]" />
