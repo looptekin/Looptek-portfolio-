@@ -150,7 +150,7 @@ const Slide4 = () => {
           className="mb-10"
         >
           <h2 className="text-3xl md:text-4xl font-semibold tracking-wide bg-gradient-to-r from-[#00d2ff] to-[#6c5ce7] bg-clip-text text-transparent">
-            Real Estate
+            Hospitals & Clinics
           </h2>
 
           <div className="mt-4 w-16 h-[2px] bg-gradient-to-r from-[#00d2ff] to-[#6c5ce7]" />

@@ -17,19 +17,19 @@ const RESULTS = [
   {
     id: 1,
     src: img1,
-    title: 'Inquiries Generated',
+    title: 'Increased footfall & table reservations',
     desc: 'Through targeted ad campaigns that reached the right audience at the right moment.',
   },
   {
     id: 2,
     src: img2,
-    title: 'Improved Leads Quality',
+    title: 'Boosted engagement by 3-5X',
     desc: 'Higher intent traffic converting into real business opportunities and sales.',
   },
   {
     id: 3,
     src: img3,
-    title: 'Brand Awareness',
+    title: 'Increased repeat customers',
     desc: 'Consistent visibility across platforms building trust and recognition over time.',
   },
 ];
@@ -150,7 +150,7 @@ const Slide2 = () => {
           className="mb-10"
         >
           <h2 className="text-3xl md:text-4xl font-semibold tracking-wide bg-gradient-to-r from-[#00d2ff] to-[#6c5ce7] bg-clip-text text-transparent">
-            Real Estate
+            Restaurants & Cafes
           </h2>
 
           <div className="mt-4 w-16 h-[2px] bg-gradient-to-r from-[#00d2ff] to-[#6c5ce7]" />

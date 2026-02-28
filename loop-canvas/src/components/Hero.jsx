@@ -10,10 +10,10 @@ import a3 from '../assets/3.webm';
 import a4 from '../assets/4.webm';
 
 const VIDEOS = [
-  { src: a1, id: 1, title: 'Campaign 1' },
-  { src: a2, id: 2, title: 'Campaign 2' },
-  { src: a3, id: 3, title: 'Campaign 3' },
-  { src: a4, id: 4, title: 'Campaign 4' },
+  { src: a1, id: 1, title: 'Increase traffic by 3X' },
+  { src: a2, id: 2, title: 'Boosted sales with ad campaigns' },
+  { src: a3, id: 3, title: 'Improved Leads Quality' },
+  { src: a4, id: 4, title: 'Improvement in customer reviews' },
 ];
 
 // ─────────────────────────────────────────────

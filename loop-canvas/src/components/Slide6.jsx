@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 
-import v1 from '../assets/D1.webm';
+import v1 from '../assets/E1.webm';
 import v2 from '../assets/D2.webm';
 
 import img1 from '../assets/D3.jpg';
